@@ -1,7 +1,6 @@
 #ifndef MOLDEN_H
 #define MOLDEN_H
 #include "utilities.h"
-#include "constants.h"
 
 class MoldenFile
 {
@@ -22,6 +21,6 @@ class MoldenFile
         std::string pre_orbital_text;
 };
 
-
+void CompareTwoMoldens(std::string filename_A, std::string filename_B);
 
 #endif

@@ -22,4 +22,8 @@
 #include <experimental/filesystem>
 namespace fs = std::experimental::filesystem;
 
+
+double dot_product(std::vector<double> A, std::vector<double> B);
+std::vector<std::string> GetFileList(int argc, char** argv);
+
 #endif
